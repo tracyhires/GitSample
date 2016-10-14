@@ -5,4 +5,6 @@ public interface MessageBroker {
 	void sendMessage(Message m);
 	
 	Message receive();
+	
+	void disconnect();
 }
