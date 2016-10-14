@@ -7,4 +7,6 @@ public interface MessageBroker {
 	Message receive();
 	
 	void connect(Object connectInfo);
+	
+	void disconnect();
 }
